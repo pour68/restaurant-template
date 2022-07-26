@@ -1,0 +1,33 @@
+.container {
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: var(--space-2);
+    margin-right: var(--space-2);
+}
+
+.d-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.section-title,
+.section-subtitle {
+    text-align: center;
+}
+
+.section-title {
+    font-size: var(--fs-xxl);
+    color: var(--title-color);
+    margin-bottom: var(--space-3);
+}
+
+.section-subtitle {
+    display: block;
+    color: var(--first-color);
+    font-weight: var(--fw-medium);
+    margin-bottom: var(--space-1);
+}

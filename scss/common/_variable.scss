@@ -1,0 +1,45 @@
+:root {
+    --header-height: 3rem;
+
+    --first-color: #069C54;
+    --first-color-alt: #048654;
+    --title-color: #393939;
+    --text-color: #707070;
+    --text-color-light: #A6A6A6;
+    --body-color: #FBFEFD;
+    --container-color: #fff;
+
+    --body-font: "Poppins", sans-serif;
+    --fs-big: 2.25rem;
+    --fs-xxl: 1.5rem;
+    --fs-xl: 1.25rem;
+    --fs-lg: 1rem;
+    --fs-md: 0.938rem;
+    --fs-sm: 0.813rem;
+    --fs-xs: 0.75rem;
+
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2rem;
+    --space-5: 2.5rem;
+    --space-6: 3rem;
+
+    --zi-tooltip: 10;
+    --zi-fixed: 100;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --fs-big: 4rem;
+        --fs-xxl: 2.25rem;
+        --fs-xl: 1.5rem;
+        --fs-lg: 1.25rem;
+        --fs-md: 1rem;
+        --fs-sm: 0.875rem;
+        --fs-xs: 0.813rem;
+    }
+}
